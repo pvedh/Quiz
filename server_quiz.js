@@ -8,5 +8,5 @@ app.get('/',(req,res)=>{
 })
 app.use(exp.json())
 
-const QuizApp=require('./APIs/Quiz_API')
+const QuizApp=require('./Quiz_API')
 app.use('/quiz-api',QuizApp)
